@@ -1,0 +1,52 @@
+h1 {
+    color: rgb(128, 0, 43);
+}
+
+body {
+    background: rgb(189, 238, 156);
+} 
+
+.title {
+    width: 200px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#over {
+    color: red;
+    display: none;
+}
+
+#score-panel {
+    display: none;
+}
+
+#board {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 25px;
+    height: 25px;
+    background-color: lightblue;
+}
+
+.snake {
+    background-color: crimson;
+    
+}
+
+.food {
+    background-color: darkgoldenrod;
+    
+}
+
+
+
+
